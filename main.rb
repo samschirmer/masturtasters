@@ -2,8 +2,7 @@ require 'sinatra'
 require 'active_record'
 require 'securerandom'
 require 'chartkick'
-require 'require_all'
-require_all 'models'
+require_relative './tables'
 include DB
 
 ActiveRecord::Base.establish_connection(:adapter => 'sqlite3',:database =>  'db/tasters.sqlite3.db')
@@ -34,7 +33,8 @@ end
 get '/brands/:id' do 
 	@ratings = Array.new
 	@percent = Array.new
-	@brand = DB::Brand.find_by_sql("select b.id, b.name, avg(r.rating) as avg_rating, avg(r.ranking) as avg_ranking, sum(r.rating) as sum_rating, c.name as category from brands as b left join ratings as r on r.brand_id = b.id left join categories as c on c.id = b.category_id where b.id = #{params[:id]} group by r.brand_id order by avg(r.rating) desc").first
+	@brand = DB::Brand.find_by_sql("select b.id, b.name, avg(r.rating) as avg_rating, avg(r.ranking) as avg_ranking, sum(r.rating) as sum_rating, c.name as category, c.id as category_id from brands as b left join ratings as r on r.brand_id = b.id left join categories as c on c.id = b.category_id where b.id = #{params[:id]} group by r.brand_id order by avg(r.rating) desc").first
+	@category = DB::Brand.where(category_id: @brand.category_id).count
 
 	# RATINGS BAR CHART
 	ratings_chart = DB::Rating.find_by_sql("select h.first_name, r.rating from ratings as r left join humans as h on h.id = r.human_id where r.brand_id = #{params[:id]} order by r.rating desc")

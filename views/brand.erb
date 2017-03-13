@@ -2,8 +2,8 @@
 
 <table style="margin: auto;">
 	<tr>
-		<td>Average score</td><td><%= @brand.avg_rating.round(2) %></td>
-		<td>Average rank:</td><td><%= @brand.avg_ranking.round(2) %></td>
+		<td>Average score: <%= @brand.avg_rating.round(2) %></td>
+		<td>Average rank: <%= @brand.avg_ranking.round(2) %> of <%= @category %></td>
 	</tr>
 </table>
 
