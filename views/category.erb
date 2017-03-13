@@ -1,0 +1,16 @@
+<h1><%= "#{@category.name.upcase} - #{@category.date_tasted.strftime('%m-%d-%Y')}" %></h1>
+
+<table>
+	<tr>
+		<td>Brand</td>
+		<td>Avg Rating</td>
+		<td>Avg Ranking</td>
+	</tr>
+	<% @brands.each do |b| %>
+		<tr>
+			<td><a href='/brands/<%= b.id %>'><%= b.name %></a></td>
+			<td><%= b.avg_rating.round(2) %></td>
+			<td><%= b.avg_ranking.round(2) %></td>
+		</tr>
+	<% end %>
+</table>

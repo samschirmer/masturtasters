@@ -1,0 +1,586 @@
+master,taster,category,brand,rating,ranking
+Justin,Alyssa,chocolate,Lindt 70%,4,1
+Justin,Alyssa,chocolate,Godiva 72%,3.5,3
+Justin,Alyssa,chocolate,Dandelion 70%,1.5,5
+Justin,Alyssa,chocolate,Ghiradelli 60%,2,4
+Justin,Alyssa,chocolate,Hershey 70%,1.5,7
+Justin,Alyssa,chocolate,Equal Exchange 80%,1.5,6
+Justin,Alyssa,chocolate,Ghiradelli Cocoa Nibs 60%,4,2
+Justin,Austin,chocolate,Lindt 70%,4,2
+Justin,Austin,chocolate,Godiva 72%,3.5,4
+Justin,Austin,chocolate,Dandelion 70%,1,7
+Justin,Austin,chocolate,Ghiradelli 60%,2,5
+Justin,Austin,chocolate,Hershey 70%,2,6
+Justin,Austin,chocolate,Equal Exchange 80%,3.5,3
+Justin,Austin,chocolate,Ghiradelli Cocoa Nibs 60%,5,1
+Justin,Andrew,chocolate,Lindt 70%,4,2
+Justin,Andrew,chocolate,Godiva 72%,2.5,5
+Justin,Andrew,chocolate,Dandelion 70%,0,7
+Justin,Andrew,chocolate,Ghiradelli 60%,3.5,3
+Justin,Andrew,chocolate,Hershey 70%,3.5,4
+Justin,Andrew,chocolate,Equal Exchange 80%,2,6
+Justin,Andrew,chocolate,Ghiradelli Cocoa Nibs 60%,4.5,1
+Justin,Evan,chocolate,Lindt 70%,2.5,4
+Justin,Evan,chocolate,Godiva 72%,4,1
+Justin,Evan,chocolate,Dandelion 70%,0,7
+Justin,Evan,chocolate,Ghiradelli 60%,2,6
+Justin,Evan,chocolate,Hershey 70%,2.5,5
+Justin,Evan,chocolate,Equal Exchange 80%,3,2
+Justin,Evan,chocolate,Ghiradelli Cocoa Nibs 60%,3,3
+Justin,Sam,chocolate,Lindt 70%,3.5,3
+Justin,Sam,chocolate,Godiva 72%,2.5,5
+Justin,Sam,chocolate,Dandelion 70%,4,2
+Justin,Sam,chocolate,Ghiradelli 60%,2.5,6
+Justin,Sam,chocolate,Hershey 70%,0,7
+Justin,Sam,chocolate,Equal Exchange 80%,5,1
+Justin,Sam,chocolate,Ghiradelli Cocoa Nibs 60%,3,4
+Justin,Katelin,chocolate,Lindt 70%,3,4
+Justin,Katelin,chocolate,Godiva 72%,2,5
+Justin,Katelin,chocolate,Dandelion 70%,4,1
+Justin,Katelin,chocolate,Ghiradelli 60%,3.5,3
+Justin,Katelin,chocolate,Hershey 70%,2,7
+Justin,Katelin,chocolate,Equal Exchange 80%,2,6
+Justin,Katelin,chocolate,Ghiradelli Cocoa Nibs 60%,4,2
+Justin,Anastasia,chocolate,Lindt 70%,1.5,4
+Justin,Anastasia,chocolate,Godiva 72%,2,5
+Justin,Anastasia,chocolate,Dandelion 70%,1,6
+Justin,Anastasia,chocolate,Ghiradelli 60%,2.5,3
+Justin,Anastasia,chocolate,Hershey 70%,0.5,7
+Justin,Anastasia,chocolate,Equal Exchange 80%,4,1
+Justin,Anastasia,chocolate,Ghiradelli Cocoa Nibs 60%,3.5,2
+Justin,Jacob,chocolate,Lindt 70%,2.5,4
+Justin,Jacob,chocolate,Godiva 72%,2.5,5
+Justin,Jacob,chocolate,Dandelion 70%,0,8
+Justin,Jacob,chocolate,Ghiradelli 60%,3,3
+Justin,Jacob,chocolate,Hershey 70%,4,1
+Justin,Jacob,chocolate,Equal Exchange 80%,1.5,6
+Justin,Jacob,chocolate,Ghiradelli Cocoa Nibs 60%,3.5,2
+Justin,Justin,chocolate,Lindt 70%,2.5,7
+Justin,Justin,chocolate,Godiva 72%,3.5,4
+Justin,Justin,chocolate,Dandelion 70%,4,3
+Justin,Justin,chocolate,Ghiradelli 60%,3,5
+Justin,Justin,chocolate,Hershey 70%,4.5,1
+Justin,Justin,chocolate,Equal Exchange 80%,4,2
+Justin,Justin,chocolate,Ghiradelli Cocoa Nibs 60%,3,6
+Jacob,Alyssa,Peanut Butter,Reese's,2.5,5
+Jacob,Alyssa,Peanut Butter,Peter Pan,3,2
+Jacob,Alyssa,Peanut Butter,Great Value,2.5,4
+Jacob,Alyssa,Peanut Butter,Skippy,3.5,3
+Jacob,Alyssa,Peanut Butter,Earth Balance,1,6
+Jacob,Alyssa,Peanut Butter,Jif,4,1
+Jacob,Austin,Peanut Butter,Reese's,3.5,3
+Jacob,Austin,Peanut Butter,Peter Pan,3,5
+Jacob,Austin,Peanut Butter,Great Value,3,4
+Jacob,Austin,Peanut Butter,Skippy,4,2
+Jacob,Austin,Peanut Butter,Earth Balance,0.5,6
+Jacob,Austin,Peanut Butter,Jif,4.5,1
+Jacob,Andrew,Peanut Butter,Reese's,3,5
+Jacob,Andrew,Peanut Butter,Peter Pan,3,4
+Jacob,Andrew,Peanut Butter,Great Value,3.5,3
+Jacob,Andrew,Peanut Butter,Skippy,5,1
+Jacob,Andrew,Peanut Butter,Earth Balance,1,6
+Jacob,Andrew,Peanut Butter,Jif,4,2
+Jacob,Evan,Peanut Butter,Reese's,2.5,4
+Jacob,Evan,Peanut Butter,Peter Pan,3,3
+Jacob,Evan,Peanut Butter,Great Value,3.5,2
+Jacob,Evan,Peanut Butter,Skippy,3.75,1
+Jacob,Evan,Peanut Butter,Earth Balance,1,6
+Jacob,Evan,Peanut Butter,Jif,2,5
+Jacob,Sam,Peanut Butter,Reese's,2.5,6
+Jacob,Sam,Peanut Butter,Peter Pan,3.5,4
+Jacob,Sam,Peanut Butter,Great Value,3,5
+Jacob,Sam,Peanut Butter,Skippy,4,2
+Jacob,Sam,Peanut Butter,Earth Balance,5,1
+Jacob,Sam,Peanut Butter,Jif,3.5,3
+Jacob,Katelin,Peanut Butter,Reese's,4,4
+Jacob,Katelin,Peanut Butter,Peter Pan,3.5,5
+Jacob,Katelin,Peanut Butter,Great Value,4.5,3
+Jacob,Katelin,Peanut Butter,Skippy,5,1
+Jacob,Katelin,Peanut Butter,Earth Balance,1,6
+Jacob,Katelin,Peanut Butter,Jif,4.5,2
+Jacob,Anastasia,Peanut Butter,Reese's,3,5
+Jacob,Anastasia,Peanut Butter,Peter Pan,3.5,1
+Jacob,Anastasia,Peanut Butter,Great Value,2,4
+Jacob,Anastasia,Peanut Butter,Skippy,2.5,3
+Jacob,Anastasia,Peanut Butter,Earth Balance,3.5,2
+Jacob,Anastasia,Peanut Butter,Jif,2.5,3
+Jacob,Jacob,Peanut Butter,Reese's,2,6
+Jacob,Jacob,Peanut Butter,Peter Pan,3.5,3
+Jacob,Jacob,Peanut Butter,Great Value,3,4
+Jacob,Jacob,Peanut Butter,Skippy,4,2
+Jacob,Jacob,Peanut Butter,Earth Balance,2.5,5
+Jacob,Jacob,Peanut Butter,Jif,4,1
+Jacob,Justin,Peanut Butter,Reese's,2.5,5
+Jacob,Justin,Peanut Butter,Peter Pan,4,2
+Jacob,Justin,Peanut Butter,Great Value,3.5,4
+Jacob,Justin,Peanut Butter,Skippy,4.5,1
+Jacob,Justin,Peanut Butter,Earth Balance,1.5,6
+Jacob,Justin,Peanut Butter,Jif,4,3
+Katelin,Alyssa,Ice Cream,Prarie Farms,1.5,8
+Katelin,Alyssa,Ice Cream,Schnuck's,2,7
+Katelin,Alyssa,Ice Cream,Breyer's,4,3
+Katelin,Alyssa,Ice Cream,Edy's,4,4
+Katelin,Alyssa,Ice Cream,Haagen Dazs,3.5,6
+Katelin,Alyssa,Ice Cream,Blue Bunny,3.5,5
+Katelin,Alyssa,Ice Cream,Oberweis,5,1
+Katelin,Alyssa,Ice Cream,Gelato,4.5,2
+Katelin,Austin,Ice Cream,Prarie Farms,1.5,8
+Katelin,Austin,Ice Cream,Schnuck's,2.5,7
+Katelin,Austin,Ice Cream,Breyer's,5,1
+Katelin,Austin,Ice Cream,Edy's,4.5,4
+Katelin,Austin,Ice Cream,Haagen Dazs,4,6
+Katelin,Austin,Ice Cream,Blue Bunny,4,5
+Katelin,Austin,Ice Cream,Oberweis,4.5,3
+Katelin,Austin,Ice Cream,Gelato,5,2
+Katelin,Andrew,Ice Cream,Prarie Farms,2.5,8
+Katelin,Andrew,Ice Cream,Schnuck's,3,5
+Katelin,Andrew,Ice Cream,Breyer's,3.5,3
+Katelin,Andrew,Ice Cream,Edy's,3,7
+Katelin,Andrew,Ice Cream,Haagen Dazs,4,2
+Katelin,Andrew,Ice Cream,Blue Bunny,3.5,4
+Katelin,Andrew,Ice Cream,Oberweis,3,6
+Katelin,Andrew,Ice Cream,Gelato,4,1
+Katelin,Evan,Ice Cream,Prarie Farms,3.5,4
+Katelin,Evan,Ice Cream,Schnuck's,2.5,6
+Katelin,Evan,Ice Cream,Breyer's,4,2
+Katelin,Evan,Ice Cream,Edy's,2.5,5
+Katelin,Evan,Ice Cream,Haagen Dazs,4.1,1
+Katelin,Evan,Ice Cream,Blue Bunny,3.5,3
+Katelin,Evan,Ice Cream,Oberweis,2,7
+Katelin,Evan,Ice Cream,Gelato,1.75,8
+Katelin,Sam,Ice Cream,Prarie Farms,1.5,7
+Katelin,Sam,Ice Cream,Schnuck's,1.5,8
+Katelin,Sam,Ice Cream,Breyer's,3.5,3
+Katelin,Sam,Ice Cream,Edy's,2.5,6
+Katelin,Sam,Ice Cream,Haagen Dazs,3,5
+Katelin,Sam,Ice Cream,Blue Bunny,3,4
+Katelin,Sam,Ice Cream,Oberweis,4.5,1
+Katelin,Sam,Ice Cream,Gelato,4,2
+Katelin,Katelin,Ice Cream,Prarie Farms,5,1
+Katelin,Katelin,Ice Cream,Schnuck's,1.5,8
+Katelin,Katelin,Ice Cream,Breyer's,2,6
+Katelin,Katelin,Ice Cream,Edy's,2,7
+Katelin,Katelin,Ice Cream,Haagen Dazs,4.5,2
+Katelin,Katelin,Ice Cream,Blue Bunny,2.5,5
+Katelin,Katelin,Ice Cream,Oberweis,3,4
+Katelin,Katelin,Ice Cream,Gelato,3.5,3
+Katelin,Anastasia,Ice Cream,Prarie Farms,3,8
+Katelin,Anastasia,Ice Cream,Schnuck's,0.5,7
+Katelin,Anastasia,Ice Cream,Breyer's,2.5,5
+Katelin,Anastasia,Ice Cream,Edy's,2,4
+Katelin,Anastasia,Ice Cream,Haagen Dazs,3,2
+Katelin,Anastasia,Ice Cream,Blue Bunny,2,3
+Katelin,Anastasia,Ice Cream,Oberweis,1.5,6
+Katelin,Anastasia,Ice Cream,Gelato,5,1
+Katelin,Jacob,Ice Cream,Prarie Farms,2.5,7
+Katelin,Jacob,Ice Cream,Schnuck's,1.5,8
+Katelin,Jacob,Ice Cream,Breyer's,4,2
+Katelin,Jacob,Ice Cream,Edy's,3.5,3
+Katelin,Jacob,Ice Cream,Haagen Dazs,3.5,4
+Katelin,Jacob,Ice Cream,Blue Bunny,3,5
+Katelin,Jacob,Ice Cream,Oberweis,4.5,1
+Katelin,Jacob,Ice Cream,Gelato,3,6
+Katelin,Justin,Ice Cream,Prarie Farms,2,7
+Katelin,Justin,Ice Cream,Schnuck's,2.5,6
+Katelin,Justin,Ice Cream,Breyer's,3.5,2
+Katelin,Justin,Ice Cream,Edy's,3,5
+Katelin,Justin,Ice Cream,Haagen Dazs,3,3
+Katelin,Justin,Ice Cream,Blue Bunny,3,4
+Katelin,Justin,Ice Cream,Oberweis,2,8
+Katelin,Justin,Ice Cream,Gelato,5,1
+Evan,Alyssa,Cream Soda,IBC,1.5,2
+Evan,Alyssa,Cream Soda,A&W,2,1
+Evan,Alyssa,Cream Soda,Fitz's,0.5,5
+Evan,Alyssa,Cream Soda,Natural Brew,0,6
+Evan,Alyssa,Cream Soda,Virgil's,1,4
+Evan,Alyssa,Cream Soda,Boylan's,1,3
+Evan,Austin,Cream Soda,IBC,4,3
+Evan,Austin,Cream Soda,A&W,2,5
+Evan,Austin,Cream Soda,Fitz's,4.5,2
+Evan,Austin,Cream Soda,Natural Brew,0.5,6
+Evan,Austin,Cream Soda,Virgil's,2.5,4
+Evan,Austin,Cream Soda,Boylan's,4.5,1
+Evan,Andrew,Cream Soda,IBC,4,2
+Evan,Andrew,Cream Soda,A&W,4,1
+Evan,Andrew,Cream Soda,Fitz's,3,3
+Evan,Andrew,Cream Soda,Natural Brew,3,4
+Evan,Andrew,Cream Soda,Virgil's,2,5
+Evan,Andrew,Cream Soda,Boylan's,2,6
+Evan,Evan,Cream Soda,IBC,1.5,6
+Evan,Evan,Cream Soda,A&W,2,4
+Evan,Evan,Cream Soda,Fitz's,3,1
+Evan,Evan,Cream Soda,Natural Brew,2,5
+Evan,Evan,Cream Soda,Virgil's,2.5,3
+Evan,Evan,Cream Soda,Boylan's,3,2
+Evan,Sam,Cream Soda,IBC,2,4
+Evan,Sam,Cream Soda,A&W,1,6
+Evan,Sam,Cream Soda,Fitz's,4.5,1
+Evan,Sam,Cream Soda,Natural Brew,2,5
+Evan,Sam,Cream Soda,Virgil's,4,2
+Evan,Sam,Cream Soda,Boylan's,4,3
+Evan,Katelin,Cream Soda,IBC,4,4
+Evan,Katelin,Cream Soda,A&W,4,5
+Evan,Katelin,Cream Soda,Fitz's,5,2
+Evan,Katelin,Cream Soda,Natural Brew,4,3
+Evan,Katelin,Cream Soda,Virgil's,3,6
+Evan,Katelin,Cream Soda,Boylan's,5,1
+Evan,Anastasia,Cream Soda,IBC,2,6
+Evan,Anastasia,Cream Soda,A&W,3,4
+Evan,Anastasia,Cream Soda,Fitz's,4,1
+Evan,Anastasia,Cream Soda,Natural Brew,3.5,2
+Evan,Anastasia,Cream Soda,Virgil's,2.5,5
+Evan,Anastasia,Cream Soda,Boylan's,3,3
+Evan,Jacob,Cream Soda,IBC,3.5,3
+Evan,Jacob,Cream Soda,A&W,0.5,6
+Evan,Jacob,Cream Soda,Fitz's,4.5,1
+Evan,Jacob,Cream Soda,Natural Brew,2.5,5
+Evan,Jacob,Cream Soda,Virgil's,3,4
+Evan,Jacob,Cream Soda,Boylan's,4,2
+Evan,Justin,Cream Soda,IBC,4,2
+Evan,Justin,Cream Soda,A&W,4,3
+Evan,Justin,Cream Soda,Fitz's,5,1
+Evan,Justin,Cream Soda,Natural Brew,3,4
+Evan,Justin,Cream Soda,Virgil's,2.5,6
+Evan,Justin,Cream Soda,Boylan's,2.5,5
+Anastasia,Alyssa,Brownies,Little Debbie,3,2
+Anastasia,Alyssa,Brownies,Sweet Art,1,6
+Anastasia,Alyssa,Brownies,Panera,2,4
+Anastasia,Alyssa,Brownies,Russel's,3,3
+Anastasia,Alyssa,Brownies,Ghiradelli,3.5,1
+Anastasia,Alyssa,Brownies,Homemade,1,5
+Anastasia,Austin,Brownies,Little Debbie,4,1
+Anastasia,Austin,Brownies,Sweet Art,1.5,6
+Anastasia,Austin,Brownies,Panera,2.5,3
+Anastasia,Austin,Brownies,Russel's,3,2
+Anastasia,Austin,Brownies,Ghiradelli,2,4
+Anastasia,Austin,Brownies,Homemade,2,5
+Anastasia,Andrew,Brownies,Little Debbie,3.5,2
+Anastasia,Andrew,Brownies,Sweet Art,1.5,5
+Anastasia,Andrew,Brownies,Panera,2.5,3
+Anastasia,Andrew,Brownies,Russel's,1.5,4
+Anastasia,Andrew,Brownies,Ghiradelli,4,1
+Anastasia,Andrew,Brownies,Homemade,1,6
+Anastasia,Evan,Brownies,Little Debbie,3.5,1
+Anastasia,Evan,Brownies,Sweet Art,3,2
+Anastasia,Evan,Brownies,Panera,2.5,3
+Anastasia,Evan,Brownies,Russel's,2,5
+Anastasia,Evan,Brownies,Ghiradelli,1.5,6
+Anastasia,Evan,Brownies,Homemade,2,4
+Anastasia,Sam,Brownies,Little Debbie,3.5,5
+Anastasia,Sam,Brownies,Sweet Art,1.5,6
+Anastasia,Sam,Brownies,Panera,3.5,4
+Anastasia,Sam,Brownies,Russel's,4,3
+Anastasia,Sam,Brownies,Ghiradelli,4.5,1
+Anastasia,Sam,Brownies,Homemade,4,2
+Anastasia,Katelin,Brownies,Little Debbie,4,2
+Anastasia,Katelin,Brownies,Sweet Art,3.5,3
+Anastasia,Katelin,Brownies,Panera,2.5,6
+Anastasia,Katelin,Brownies,Russel's,4,1
+Anastasia,Katelin,Brownies,Ghiradelli,3,4
+Anastasia,Katelin,Brownies,Homemade,3,5
+Anastasia,Anastasia,Brownies,Little Debbie,3,2
+Anastasia,Anastasia,Brownies,Sweet Art,2.5,5
+Anastasia,Anastasia,Brownies,Panera,2.5,6
+Anastasia,Anastasia,Brownies,Russel's,3.5,1
+Anastasia,Anastasia,Brownies,Ghiradelli,2.5,4
+Anastasia,Anastasia,Brownies,Homemade,2,3
+Anastasia,Jacob,Brownies,Little Debbie,3.5,1
+Anastasia,Jacob,Brownies,Sweet Art,1,4
+Anastasia,Jacob,Brownies,Panera,2,3
+Anastasia,Jacob,Brownies,Russel's,1,5
+Anastasia,Jacob,Brownies,Ghiradelli,3,2
+Anastasia,Jacob,Brownies,Homemade,0.5,6
+Anastasia,Justin,Brownies,Little Debbie,4.5,1
+Anastasia,Justin,Brownies,Sweet Art,2,5
+Anastasia,Justin,Brownies,Panera,2.5,3
+Anastasia,Justin,Brownies,Russel's,2.5,4
+Anastasia,Justin,Brownies,Ghiradelli,3,2
+Anastasia,Justin,Brownies,Homemade,1.5,6
+Andrew,Alyssa,Orange Juice,Florida's Natural,1,6
+Andrew,Alyssa,Orange Juice,Minute Maid,1.5,5
+Andrew,Alyssa,Orange Juice,Simply Orange,4,2
+Andrew,Alyssa,Orange Juice,Concetrated,1,7
+Andrew,Alyssa,Orange Juice,Prarie Farms,0,8
+Andrew,Alyssa,Orange Juice,Sunny D,2,4
+Andrew,Alyssa,Orange Juice,Fresh Squeezed,3.5,3
+Andrew,Alyssa,Orange Juice,Tropicana,4,1
+Andrew,Austin,Orange Juice,Florida's Natural,1.5,5
+Andrew,Austin,Orange Juice,Minute Maid,1,6
+Andrew,Austin,Orange Juice,Simply Orange,2,4
+Andrew,Austin,Orange Juice,Concetrated,0.5,7
+Andrew,Austin,Orange Juice,Prarie Farms,0,8
+Andrew,Austin,Orange Juice,Sunny D,2.5,3
+Andrew,Austin,Orange Juice,Fresh Squeezed,5,1
+Andrew,Austin,Orange Juice,Tropicana,4,2
+Andrew,Andrew,Orange Juice,Florida's Natural,4,2
+Andrew,Andrew,Orange Juice,Minute Maid,3,3
+Andrew,Andrew,Orange Juice,Simply Orange,4.5,1
+Andrew,Andrew,Orange Juice,Concetrated,0.5,7
+Andrew,Andrew,Orange Juice,Prarie Farms,1,7
+Andrew,Andrew,Orange Juice,Sunny D,2,5
+Andrew,Andrew,Orange Juice,Fresh Squeezed,0.5,8
+Andrew,Andrew,Orange Juice,Tropicana,3,4
+Andrew,Evan,Orange Juice,Florida's Natural,1,6
+Andrew,Evan,Orange Juice,Minute Maid,0.5,7
+Andrew,Evan,Orange Juice,Simply Orange,1.5,4
+Andrew,Evan,Orange Juice,Concetrated,0,8
+Andrew,Evan,Orange Juice,Prarie Farms,1,5
+Andrew,Evan,Orange Juice,Sunny D,3,1
+Andrew,Evan,Orange Juice,Fresh Squeezed,2.5,3
+Andrew,Evan,Orange Juice,Tropicana,2.5,2
+Andrew,Sam,Orange Juice,Florida's Natural,1,7
+Andrew,Sam,Orange Juice,Minute Maid,4,2
+Andrew,Sam,Orange Juice,Simply Orange,2.5,5
+Andrew,Sam,Orange Juice,Concetrated,0,8
+Andrew,Sam,Orange Juice,Prarie Farms,3,4
+Andrew,Sam,Orange Juice,Sunny D,5,1
+Andrew,Sam,Orange Juice,Fresh Squeezed,1.5,6
+Andrew,Sam,Orange Juice,Tropicana,3,3
+Andrew,Katelin,Orange Juice,Florida's Natural,1,5
+Andrew,Katelin,Orange Juice,Minute Maid,0.5,7
+Andrew,Katelin,Orange Juice,Simply Orange,4.5,3
+Andrew,Katelin,Orange Juice,Concetrated,0.5,6
+Andrew,Katelin,Orange Juice,Prarie Farms,0,8
+Andrew,Katelin,Orange Juice,Sunny D,3,4
+Andrew,Katelin,Orange Juice,Fresh Squeezed,5,1
+Andrew,Katelin,Orange Juice,Tropicana,4.5,2
+Andrew,Anastasia,Orange Juice,Florida's Natural,2.5,4
+Andrew,Anastasia,Orange Juice,Minute Maid,0,7
+Andrew,Anastasia,Orange Juice,Simply Orange,3.5,2
+Andrew,Anastasia,Orange Juice,Concetrated,0,6
+Andrew,Anastasia,Orange Juice,Prarie Farms,0,8
+Andrew,Anastasia,Orange Juice,Sunny D,1,5
+Andrew,Anastasia,Orange Juice,Fresh Squeezed,5,1
+Andrew,Anastasia,Orange Juice,Tropicana,3,3
+Andrew,Jacob,Orange Juice,Florida's Natural,1.5,6
+Andrew,Jacob,Orange Juice,Minute Maid,1,7
+Andrew,Jacob,Orange Juice,Simply Orange,3.5,3
+Andrew,Jacob,Orange Juice,Concetrated,1.5,5
+Andrew,Jacob,Orange Juice,Prarie Farms,0,8
+Andrew,Jacob,Orange Juice,Sunny D,5,1
+Andrew,Jacob,Orange Juice,Fresh Squeezed,5,1
+Andrew,Jacob,Orange Juice,Tropicana,3,4
+Andrew,Justin,Orange Juice,Florida's Natural,1.5,4
+Andrew,Justin,Orange Juice,Minute Maid,2,6
+Andrew,Justin,Orange Juice,Simply Orange,4.5,2
+Andrew,Justin,Orange Juice,Concetrated,0,8
+Andrew,Justin,Orange Juice,Prarie Farms,0,7
+Andrew,Justin,Orange Juice,Sunny D,1,5
+Andrew,Justin,Orange Juice,Fresh Squeezed,4.5,1
+Andrew,Justin,Orange Juice,Tropicana,3,3
+Sam,Alyssa,Lager,Corona Extra,0.5,7
+Sam,Alyssa,Lager,Coors Banquet,0.5,3
+Sam,Alyssa,Lager,Tsing Tao,0.5,5
+Sam,Alyssa,Lager,Stag,0,8
+Sam,Alyssa,Lager,Moulson Canadian,1,1
+Sam,Alyssa,Lager,Budweiser,1,2
+Sam,Alyssa,Lager,Pabst Blue Ribbon,0.5,6
+Sam,Alyssa,Lager,Miller Genuine Draft,1,4
+Sam,Austin,Lager,Corona Extra,2.5,3
+Sam,Austin,Lager,Coors Banquet,2.5,2
+Sam,Austin,Lager,Tsing Tao,0.5,6
+Sam,Austin,Lager,Stag,0,8
+Sam,Austin,Lager,Moulson Canadian,2.5,1
+Sam,Austin,Lager,Budweiser,2,4
+Sam,Austin,Lager,Pabst Blue Ribbon,2,5
+Sam,Austin,Lager,Miller Genuine Draft,0,7
+Sam,Andrew,Lager,Corona Extra,2,5
+Sam,Andrew,Lager,Coors Banquet,1.5,6
+Sam,Andrew,Lager,Tsing Tao,2,4
+Sam,Andrew,Lager,Stag,0.5,7
+Sam,Andrew,Lager,Moulson Canadian,3,2
+Sam,Andrew,Lager,Budweiser,3,1
+Sam,Andrew,Lager,Pabst Blue Ribbon,2.5,3
+Sam,Andrew,Lager,Miller Genuine Draft,0.5,8
+Sam,Evan,Lager,Corona Extra,2.5,
+Sam,Evan,Lager,Coors Banquet,2.5,
+Sam,Evan,Lager,Tsing Tao,0.5,
+Sam,Evan,Lager,Stag,1,
+Sam,Evan,Lager,Moulson Canadian,3,
+Sam,Evan,Lager,Budweiser,2.5,
+Sam,Evan,Lager,Pabst Blue Ribbon,2,
+Sam,Evan,Lager,Miller Genuine Draft,1.5,
+Sam,Sam,Lager,Corona Extra,1,8
+Sam,Sam,Lager,Coors Banquet,2,5
+Sam,Sam,Lager,Tsing Tao,4,2
+Sam,Sam,Lager,Stag,3,4
+Sam,Sam,Lager,Moulson Canadian,3,3
+Sam,Sam,Lager,Budweiser,2,7
+Sam,Sam,Lager,Pabst Blue Ribbon,2,6
+Sam,Sam,Lager,Miller Genuine Draft,4,1
+Sam,Katelin,Lager,Corona Extra,4.5,2
+Sam,Katelin,Lager,Coors Banquet,2,5
+Sam,Katelin,Lager,Tsing Tao,1,6
+Sam,Katelin,Lager,Stag,0.5,8
+Sam,Katelin,Lager,Moulson Canadian,3,3
+Sam,Katelin,Lager,Budweiser,5,1
+Sam,Katelin,Lager,Pabst Blue Ribbon,2.5,4
+Sam,Katelin,Lager,Miller Genuine Draft,0.5,7
+Sam,Anastasia,Lager,Corona Extra,0.5,7
+Sam,Anastasia,Lager,Coors Banquet,3,1
+Sam,Anastasia,Lager,Tsing Tao,1.5,5
+Sam,Anastasia,Lager,Stag,0.5,8
+Sam,Anastasia,Lager,Moulson Canadian,2.5,2
+Sam,Anastasia,Lager,Budweiser,0.5,6
+Sam,Anastasia,Lager,Pabst Blue Ribbon,2,4
+Sam,Anastasia,Lager,Miller Genuine Draft,2,3
+Sam,Jacob,Lager,Corona Extra,0.5,8
+Sam,Jacob,Lager,Coors Banquet,2.5,3
+Sam,Jacob,Lager,Tsing Tao,2,5
+Sam,Jacob,Lager,Stag,0.5,7
+Sam,Jacob,Lager,Moulson Canadian,3,1
+Sam,Jacob,Lager,Budweiser,2.5,2
+Sam,Jacob,Lager,Pabst Blue Ribbon,2,4
+Sam,Jacob,Lager,Miller Genuine Draft,1,6
+Sam,Justin,Lager,Corona Extra,2,2
+Sam,Justin,Lager,Coors Banquet,1.5,6
+Sam,Justin,Lager,Tsing Tao,2,3
+Sam,Justin,Lager,Stag,0,8
+Sam,Justin,Lager,Moulson Canadian,2,5
+Sam,Justin,Lager,Budweiser,3,1
+Sam,Justin,Lager,Pabst Blue Ribbon,2,4
+Sam,Justin,Lager,Miller Genuine Draft,0,7
+Austin,Alyssa,Root Beer,Mug,1,7
+Austin,Alyssa,Root Beer,Barq's,1,6
+Austin,Alyssa,Root Beer,Vess,1.5,5
+Austin,Alyssa,Root Beer,IBC,3,4
+Austin,Alyssa,Root Beer,Frostie,4,1
+Austin,Alyssa,Root Beer,Super Chill,0.5,8
+Austin,Alyssa,Root Beer,Fitz's,3.5,2
+Austin,Alyssa,Root Beer,A&W,3.5,3
+Austin,Austin,Root Beer,Mug,0.5,7
+Austin,Austin,Root Beer,Barq's,3.5,3
+Austin,Austin,Root Beer,Vess,0.5,8
+Austin,Austin,Root Beer,IBC,3.5,4
+Austin,Austin,Root Beer,Frostie,4,2
+Austin,Austin,Root Beer,Super Chill,1,6
+Austin,Austin,Root Beer,Fitz's,5,1
+Austin,Austin,Root Beer,A&W,1.5,5
+Austin,Andrew,Root Beer,Mug,0.5,8
+Austin,Andrew,Root Beer,Barq's,2.5,3
+Austin,Andrew,Root Beer,Vess,2,6
+Austin,Andrew,Root Beer,IBC,2,5
+Austin,Andrew,Root Beer,Frostie,5,1
+Austin,Andrew,Root Beer,Super Chill,1,7
+Austin,Andrew,Root Beer,Fitz's,4,2
+Austin,Andrew,Root Beer,A&W,2.5,4
+Austin,Evan,Root Beer,Mug,2,6
+Austin,Evan,Root Beer,Barq's,3,2
+Austin,Evan,Root Beer,Vess,1.5,7
+Austin,Evan,Root Beer,IBC,2.5,4
+Austin,Evan,Root Beer,Frostie,3.5,1
+Austin,Evan,Root Beer,Super Chill,2,5
+Austin,Evan,Root Beer,Fitz's,3,3
+Austin,Evan,Root Beer,A&W,1,8
+Austin,Sam,Root Beer,Mug,1,7
+Austin,Sam,Root Beer,Barq's,2,5
+Austin,Sam,Root Beer,Vess,0,8
+Austin,Sam,Root Beer,IBC,3,3
+Austin,Sam,Root Beer,Frostie,4,1
+Austin,Sam,Root Beer,Super Chill,2,4
+Austin,Sam,Root Beer,Fitz's,1,6
+Austin,Sam,Root Beer,A&W,3.5,2
+Austin,Katelin,Root Beer,Mug,1.5,5
+Austin,Katelin,Root Beer,Barq's,3,1
+Austin,Katelin,Root Beer,Vess,0.5,8
+Austin,Katelin,Root Beer,IBC,2,4
+Austin,Katelin,Root Beer,Frostie,2.5,3
+Austin,Katelin,Root Beer,Super Chill,0.5,6
+Austin,Katelin,Root Beer,Fitz's,3,2
+Austin,Katelin,Root Beer,A&W,0.5,7
+Austin,Anastasia,Root Beer,Mug,1,8
+Austin,Anastasia,Root Beer,Barq's,1,7
+Austin,Anastasia,Root Beer,Vess,1,6
+Austin,Anastasia,Root Beer,IBC,2,4
+Austin,Anastasia,Root Beer,Frostie,5,1
+Austin,Anastasia,Root Beer,Super Chill,1,5
+Austin,Anastasia,Root Beer,Fitz's,2,3
+Austin,Anastasia,Root Beer,A&W,3,2
+Austin,Jacob,Root Beer,Mug,1,8
+Austin,Jacob,Root Beer,Barq's,3,3
+Austin,Jacob,Root Beer,Vess,1,7
+Austin,Jacob,Root Beer,IBC,2.5,4
+Austin,Jacob,Root Beer,Frostie,4,1
+Austin,Jacob,Root Beer,Super Chill,2.5,5
+Austin,Jacob,Root Beer,Fitz's,4,2
+Austin,Jacob,Root Beer,A&W,2,6
+Austin,Justin,Root Beer,Mug,0.5,8
+Austin,Justin,Root Beer,Barq's,3.5,2
+Austin,Justin,Root Beer,Vess,2,5
+Austin,Justin,Root Beer,IBC,1.5,6
+Austin,Justin,Root Beer,Frostie,4.5,1
+Austin,Justin,Root Beer,Super Chill,2.5,4
+Austin,Justin,Root Beer,Fitz's,1,7
+Austin,Justin,Root Beer,A&W,2.5,3
+Alyssa,Alyssa,Cinnamon Rolls,Companion,3.5,1
+Alyssa,Alyssa,Cinnamon Rolls,Sister Schubert's,1.5,5
+Alyssa,Alyssa,Cinnamon Rolls,Schnuck's,0,8
+Alyssa,Alyssa,Cinnamon Rolls,Cinnabon,1,6
+Alyssa,Alyssa,Cinnamon Rolls,Ikea,3.5,2
+Alyssa,Alyssa,Cinnamon Rolls,Pillsbury,3,4
+Alyssa,Alyssa,Cinnamon Rolls,Panera,0,7
+Alyssa,Alyssa,Cinnamon Rolls,Aldi,3,3
+Alyssa,Austin,Cinnamon Rolls,Companion,3.5,4
+Alyssa,Austin,Cinnamon Rolls,Sister Schubert's,1,7
+Alyssa,Austin,Cinnamon Rolls,Schnuck's,1.5,6
+Alyssa,Austin,Cinnamon Rolls,Cinnabon,4,2
+Alyssa,Austin,Cinnamon Rolls,Ikea,2.5,5
+Alyssa,Austin,Cinnamon Rolls,Pillsbury,3.5,3
+Alyssa,Austin,Cinnamon Rolls,Panera,1,8
+Alyssa,Austin,Cinnamon Rolls,Aldi,4,1
+Alyssa,Andrew,Cinnamon Rolls,Companion,3.5,3
+Alyssa,Andrew,Cinnamon Rolls,Sister Schubert's,1,7
+Alyssa,Andrew,Cinnamon Rolls,Schnuck's,1.5,6
+Alyssa,Andrew,Cinnamon Rolls,Cinnabon,2.5,5
+Alyssa,Andrew,Cinnamon Rolls,Ikea,3,4
+Alyssa,Andrew,Cinnamon Rolls,Pillsbury,4.5,1
+Alyssa,Andrew,Cinnamon Rolls,Panera,0.5,8
+Alyssa,Andrew,Cinnamon Rolls,Aldi,4,2
+Alyssa,Evan,Cinnamon Rolls,Companion,2.5,3
+Alyssa,Evan,Cinnamon Rolls,Sister Schubert's,2,5
+Alyssa,Evan,Cinnamon Rolls,Schnuck's,2,6
+Alyssa,Evan,Cinnamon Rolls,Cinnabon,2.5,4
+Alyssa,Evan,Cinnamon Rolls,Ikea,1.5,7
+Alyssa,Evan,Cinnamon Rolls,Pillsbury,3.5,1
+Alyssa,Evan,Cinnamon Rolls,Panera,0,8
+Alyssa,Evan,Cinnamon Rolls,Aldi,3,2
+Alyssa,Sam,Cinnamon Rolls,Companion,2,5
+Alyssa,Sam,Cinnamon Rolls,Sister Schubert's,1,7
+Alyssa,Sam,Cinnamon Rolls,Schnuck's,2.5,3
+Alyssa,Sam,Cinnamon Rolls,Cinnabon,2.5,4
+Alyssa,Sam,Cinnamon Rolls,Ikea,3,2
+Alyssa,Sam,Cinnamon Rolls,Pillsbury,4,1
+Alyssa,Sam,Cinnamon Rolls,Panera,0.5,8
+Alyssa,Sam,Cinnamon Rolls,Aldi,1,6
+Alyssa,Katelin,Cinnamon Rolls,Companion,2.5,4
+Alyssa,Katelin,Cinnamon Rolls,Sister Schubert's,0.5,7
+Alyssa,Katelin,Cinnamon Rolls,Schnuck's,1.5,6
+Alyssa,Katelin,Cinnamon Rolls,Cinnabon,3,3
+Alyssa,Katelin,Cinnamon Rolls,Ikea,2,5
+Alyssa,Katelin,Cinnamon Rolls,Pillsbury,4,1
+Alyssa,Katelin,Cinnamon Rolls,Panera,0,8
+Alyssa,Katelin,Cinnamon Rolls,Aldi,3.5,2
+Alyssa,Anastasia,Cinnamon Rolls,Companion,3,4
+Alyssa,Anastasia,Cinnamon Rolls,Sister Schubert's,0.5,6
+Alyssa,Anastasia,Cinnamon Rolls,Schnuck's,1.5,2
+Alyssa,Anastasia,Cinnamon Rolls,Cinnabon,1.5,7
+Alyssa,Anastasia,Cinnamon Rolls,Ikea,2,5
+Alyssa,Anastasia,Cinnamon Rolls,Pillsbury,4,1
+Alyssa,Anastasia,Cinnamon Rolls,Panera,1,8
+Alyssa,Anastasia,Cinnamon Rolls,Aldi,4,3
+Alyssa,Jacob,Cinnamon Rolls,Companion,3,4
+Alyssa,Jacob,Cinnamon Rolls,Sister Schubert's,1,7
+Alyssa,Jacob,Cinnamon Rolls,Schnuck's,2,5
+Alyssa,Jacob,Cinnamon Rolls,Cinnabon,3,3
+Alyssa,Jacob,Cinnamon Rolls,Ikea,1,6
+Alyssa,Jacob,Cinnamon Rolls,Pillsbury,4,1
+Alyssa,Jacob,Cinnamon Rolls,Panera,0.5,8
+Alyssa,Jacob,Cinnamon Rolls,Aldi,3.5,2
+Alyssa,Justin,Cinnamon Rolls,Companion,4,1
+Alyssa,Justin,Cinnamon Rolls,Sister Schubert's,1.5,7
+Alyssa,Justin,Cinnamon Rolls,Schnuck's,2,6
+Alyssa,Justin,Cinnamon Rolls,Cinnabon,5,4
+Alyssa,Justin,Cinnamon Rolls,Ikea,2.5,5
+Alyssa,Justin,Cinnamon Rolls,Pillsbury,3.5,2
+Alyssa,Justin,Cinnamon Rolls,Panera,1,8
+Alyssa,Justin,Cinnamon Rolls,Aldi,3.5,3

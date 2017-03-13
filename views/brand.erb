@@ -1,0 +1,30 @@
+<h1><%= @brand.category %> :: <%= @brand.name.upcase %></h1>
+
+<table style="margin: auto;">
+	<tr>
+		<td>Average score</td><td><%= @brand.avg_rating.round(2) %></td>
+		<td>Average rank:</td><td><%= @brand.avg_ranking.round(2) %></td>
+	</tr>
+</table>
+
+<!--
+<table style="margin: 10px auto;">
+	<tr>
+		<td>Name</td><td>Score</td>
+	</tr>
+<% @ratings.each do |r| %>
+	<tr>
+		<td><%= r[0] %></td><td><%= r[1] %></td>
+	</tr>
+<% end %>
+</table>
+-->
+
+<div style="width: 45%; margin: auto; display: inline-block;">
+<h1>Ratings per taster:</h1>
+<%= bar_chart @ratings %>
+</div>
+<div style="width: 45%; margin: auto; display: inline-block;">
+<h1>Contribution to average score:</h1>
+<%= pie_chart @percent %>
+</div>

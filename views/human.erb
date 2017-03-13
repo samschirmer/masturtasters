@@ -1,0 +1,8 @@
+<h1><%= "#{@human.first_name} #{@human.last_name}"  %></h1>
+
+<h3>Favorite brands</h3>
+<ul>
+<% @favorites.each do |f| %>
+	<li><%= f.category %>: <%= f.brand %></li>
+<% end %>
+</ul>

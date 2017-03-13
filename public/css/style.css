@@ -1,0 +1,71 @@
+body {
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-size: 16px;
+}
+
+input, textarea , button, select {
+	min-width: 50%;
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+
+textarea {
+	min-height: 8em;
+}
+
+div#container {
+	max-width: 90%;
+	margin: auto;
+}
+
+div#bug_entry, div#edit_container, table#edit_table {
+	margin: auto;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	padding: 15px;
+	border: 1px solid #1E252B;
+}
+
+table.big_table {
+	width: 100%;
+	margin: auto;
+	border-collapse: collapse;
+}
+
+table tr:nth-child(odd) {
+	color: #1E252B;
+	background-color: #F0EFEF;
+}
+
+table tr:first-child{
+	color: #fff;
+	background-color: #303E48;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 900;
+}
+
+/* conditionals and stuff */
+.center {
+	text-align: center;
+}
+
+button {
+	height: 3em;
+	font-size: 16px;
+	background-color: #FC5021;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+hr {
+	margin: 50px 0px;
+}
