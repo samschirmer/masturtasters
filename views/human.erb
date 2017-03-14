@@ -1,8 +1,81 @@
 <h1><%= "#{@human.first_name} #{@human.last_name}"  %></h1>
 
-<h3>Favorite brands</h3>
-<ul>
+<h3>Master of</h3>
+<table>
+	<tr><td>Category</td><td>Average</td></tr>
+	<% @master_stats.each do |m| %>
+		<tr>
+			<td><a href='/categories/<%= m.id %>'><%= m.name %></a></td>
+			<td><%= m.avg.round(2) %></td>
+		</tr>
+	<% end %>
+</table>
+
+<div style="display: inline-block">
+<h3>Highest ranked brands</h3>
+<table>
+	<tr><td>Category</td><td>Brand</td><td>Rating</td></tr>
 <% @favorites.each do |f| %>
-	<li><%= f.category %>: <%= f.brand %></li>
+	<tr>
+		<td><a href='/categories/<%= f.category_id %>'><%= f.category %></a></td>
+		<td><a href='/brands/<%= f.brand_id %>'><%= f.brand %></a></td>
+		<td><%= f.rating %></td>
+	</tr>
 <% end %>
-</ul>
+</table>
+</div>
+
+<div style="display: inline-block">
+<h3>Lowest ranked brands</h3>
+<table>
+	<tr><td>Category</td><td>Brand</td><td>Rating</td></tr>
+<% @least_favorites.each do |f| %>
+	<tr>
+		<td><a href='/categories/<%= f.category_id %>'><%= f.category %></a></td>
+		<td><a href='/brands/<%= f.brand_id %>'><%= f.brand %></a></td>
+		<td><%= f.rating %></td>
+	</tr>
+<% end %>
+</table>
+</div>
+
+<div style="display: inline-block">
+<h3>Rating Spread</h3>
+<table>
+	<tr><td>Heat</td></tr>
+<% @heatmap.each do |h| %>
+	<tr>
+		<% case h.max - h.min 
+				when 4..5 %>
+			<td style="background-color: #0066cc; color: #fff;"><%= (h.max - h.min).round(2) %></td>
+		<% when 3..4 %>
+			<td style="background-color: #0099cc; color: #fff;"><%= (h.max - h.min).round(2) %></td>
+		<% when 2..3 %>
+			<td style="background-color: #33cccc; color: #fff;"><%= (h.max - h.min).round(2) %></td>
+		<% when 0..2 %>
+			<td style="background-color: #00cc99; color: #fff;"><%= (h.max - h.min).round(2) %></td>
+		<% else %>
+			<td><%= h.max - h.min %></td>
+		<% end %>
+	</tr>
+<% end %>
+</table>
+</div>
+
+<h3>Points given per category</h3>
+<%= area_chart @category_points, min: 90 %>
+
+<h3>Scorecard</h3>
+<table>
+	<tr>
+		<td>Category</td><td>Brand</td><td>Rating</td><td>Ranking</td>
+	</tr>
+	<% @scorecard.each do |s| %>
+		<tr>
+			<td><a href='/categories/<%= s.category_id %>'><%= s.category %></a></td>
+			<td><a href='/brands/<%= s.brand_id %>'><%= s.brand %></a></td>
+			<td><%= s.rating %></td>
+			<td><%= s.ranking %></td>
+		</tr>
+	<% end %>
+</table>

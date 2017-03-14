@@ -1,4 +1,4 @@
-<table style="display: inline-block">
+<table>
 	<tr>
 		<td>Category</td>
 		<td>Master</td>
@@ -15,14 +15,7 @@
 	<% end %>
 </table>
 
-<table style="display: inline-block">
-	<tr>
-		<td>Name</td>
-	</tr>
-	
-	<% @humans.each do |human| %>
-		<tr>
-			<td class="center"><a href='humans/<%= human.id %>'><%= human.first_name %> <%= human.last_name %></a></td>
-		</tr>
-	<% end %>
-</table>
+<h3>Top brands</h3>
+<%= bar_chart  @top_chart, min: 3, max: 4.5 %>
+<h3>Bottom brands</h3>
+<%= bar_chart  @bottom_chart, min: 0, max: 2 %>

@@ -1,5 +1,6 @@
 <h1><%= "#{@category.name.upcase} - #{@category.date_tasted.strftime('%m-%d-%Y')}" %></h1>
 
+<div style="display: inline-block;">
 <table>
 	<tr>
 		<td>Brand</td>
@@ -14,3 +15,19 @@
 		</tr>
 	<% end %>
 </table>
+</div>
+
+<div style="display: inline-block;">
+<table>
+	<tr>
+		<td>Master</td>
+	</tr>
+		<tr>
+			<td><a href='/humans/<%= @master.id %>'><%= "#{@master.first_name} #{@master.last_name}" %></a></td>
+		</tr>
+</table>
+</div>
+
+<%= pie_chart @brand_spread %>
+<%= area_chart @brand_spread %>
+

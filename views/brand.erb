@@ -1,4 +1,4 @@
-<h1><%= @brand.category %> :: <%= @brand.name.upcase %></h1>
+<h1 style="text-align: center;"><a href='/categories/<%= @brand.category_id %>'><%= @brand.category %></a> :: <%= @brand.name.upcase %></h1>
 
 <table style="margin: auto;">
 	<tr>
@@ -7,24 +7,25 @@
 	</tr>
 </table>
 
-<!--
 <table style="margin: 10px auto;">
 	<tr>
-		<td>Name</td><td>Score</td>
+		<td>Human</td><td>Rating</td><td>Rank</td>
 	</tr>
-<% @ratings.each do |r| %>
+<% @rankings.each do |r| %>
 	<tr>
-		<td><%= r[0] %></td><td><%= r[1] %></td>
+		<td><a href='/humans/<%= r.human_id %>'><%= r.first_name %></a></td>
+		<td><%= r.rating %></td>
+		<td><%= r.ranking %></td>
 	</tr>
 <% end %>
 </table>
--->
 
-<div style="width: 45%; margin: auto; display: inline-block;">
-<h1>Ratings per taster:</h1>
-<%= bar_chart @ratings %>
-</div>
-<div style="width: 45%; margin: auto; display: inline-block;">
-<h1>Contribution to average score:</h1>
-<%= pie_chart @percent %>
+<h3>Rating visualizations</h3>
+<div style="width: 100%; margin: auto;">
+	<div style="width: 48%; margin: auto; display: inline-block;">
+	<%= bar_chart @ratings %>
+	</div>
+	<div style="width: 48%; margin: auto; display: inline-block;">
+	<%= pie_chart @ratings %>
+	</div>
 </div>
