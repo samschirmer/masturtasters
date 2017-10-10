@@ -19,7 +19,7 @@ end
 get '/' do 
 	@top_chart = Array.new
 	@bottom_chart = Array.new
-	@categories = DB::Category.find_by_sql("select c.id, c.name, c.master_id, h.first_name as master, c.date_tasted, AVG(r.rating) as avg_rating, AVG(r.ranking) as avg_ranking from categories as c left join humans as h on h.id = c.master_id left join ratings as r on r.category_id = c.id group by c.id, c.name, h.first_name, c.date_tasted")
+	@categories = DB::Category.find_by_sql("select c.id, c.name, c.master_id, h.first_name as master, c.date_tasted, AVG(r.rating) as avg_rating, AVG(r.ranking) as avg_ranking from categories as c left join humans as h on h.id = c.master_id left join ratings as r on r.category_id = c.id group by c.id, c.name, h.first_name, c.date_tasted order by AVG(r.rating) DESC")
 	@humans = DB::Human.all
 
 	# top brands chart
