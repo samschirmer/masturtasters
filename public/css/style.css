@@ -3,14 +3,14 @@ body {
 	font-size: 16px;
 }
 
-h3 {
+h1 {
+	font-size: 38px;
+	text-align: center;
+	text-transform: uppercase;
 }
 
-input, textarea , button, select {
-	min-width: 50%;
-	padding: 5px;
-	border-radius: 3px;
-	border: 1px solid #ccc;
+h3 {
+	text-align: center;
 }
 
 textarea {
@@ -18,17 +18,14 @@ textarea {
 }
 
 div#container {
-	max-width: 90%;
+	padding-top: 50px;
+	max-width: 1200px;
 	margin: auto;
-}
-
-div#bug_entry, div#edit_container, table#edit_table {
-	margin: auto;
-	text-align: center;
 }
 
 table {
 	border-collapse: collapse;
+	margin: 30px auto;
 }
 
 td {
@@ -37,18 +34,12 @@ td {
 	text-align: center;
 }
 
-table.big_table {
-	width: 100%;
-	margin: auto;
-	border-collapse: collapse;
-}
-
 table tr:nth-child(odd) {
 	color: #1E252B;
 	background-color: #F0EFEF;
 }
 
-table tr:first-child{
+table tr:first-child {
 	color: #fff;
 	background-color: #303E48;
 	text-transform: uppercase;
@@ -61,15 +52,12 @@ table tr:first-child{
 	text-align: center;
 }
 
-button {
-	height: 3em;
-	font-size: 16px;
-	background-color: #FC5021;
-	color: #fff;
-	text-transform: uppercase;
-	font-weight: 700;
+.subtext {
+	font-size: 18px;
+	color: #999;	
 }
 
-hr {
-	margin: 50px 0px;
+table.big {
+	width: 100%;
+	margin: 20px auto;
 }

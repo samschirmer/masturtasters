@@ -6,10 +6,14 @@ require_relative './tables'
 include DB
 
 ActiveRecord::Base.establish_connection(:adapter => 'sqlite3',:database =>  'db/tasters.sqlite3.db')
-# hack because activesuport is fucking retarded apparently; humen? really?
+# hack because activesupport is fucking retarded apparently; humen? really?
 ActiveSupport::Inflector.inflections do |inflect|
   inflect.irregular 'human', 'humans'
 end
+
+@@navbar = Hash.new
+@@navbar[:categories] = DB::Category.all
+@@navbar[:humans] = DB::Human.all
 
 # MAIN VIEW ACTIONS
 get '/' do 
@@ -35,11 +39,12 @@ get '/' do
 end
 
 get '/categories/:id' do 
+	@words = Hash.new
+	@words[:belong] = ['owned', 'sired', 'presented', 'offered', 'brought to you']
 	@brand_spread = Array.new
 	@category = DB::Category.find_by_id(params[:id])
 	@brands = DB::Brand.find_by_sql("select b.id, b.name, avg(r.rating) as avg_rating, avg(r.ranking) as avg_ranking from brands as b left join ratings as r on r.brand_id = b.id where b.category_id = #{params[:id]} group by r.brand_id order by avg(r.rating) desc")
 	@master = DB::Human.find_by_id(@category.master_id)
-#	@master = DB::Human.find_by_sql("select h.id, h.first_name, h.last_name from categories as c left join humans as h on h.id = c.master_id where c.id = #{params[:id]}")
 
 	# brand spread
 	spread = DB::Rating.find_by_sql("select b.name, avg(r.rating) as avg from ratings as r left join brands as b on b.id = r.brand_id where r.category_id = #{params[:id]} group by r.brand_id order by avg(r.rating) asc")
@@ -50,6 +55,10 @@ get '/categories/:id' do
 end
 
 get '/humans/:id' do 
+	@words = Hash.new
+	@words[:owner] = ['mother', 'mast&#252;r', 'protector', 'guardian', 'owner']
+	@words[:good] = ['lover', 'enjoyer', 'reveler', 'relisher', 'glutton', 'worshipper']
+	@words[:bad] = ['hater', 'destroyer', 'vanquisher', 'enemy', 'breaker', 'despised', 'threatener']
 	@category_points = Array.new
 	@human = DB::Human.find_by_id(params[:id])
 	@favorites = DB::Human.find_by_sql("select c.id as category_id, b.id as brand_id, c.name as category, b.name as brand, r.rating from ratings as r left join brands as b on r.brand_id = b.id left join categories as c on c.id = r.category_id where r.ranking = 1 and human_id = #{params[:id]} order by c.id asc")
@@ -70,6 +79,9 @@ get '/brands/:id' do
 	@ratings = Array.new
 	@brand = DB::Brand.find_by_sql("select b.id, b.name, avg(r.rating) as avg_rating, avg(r.ranking) as avg_ranking, sum(r.rating) as sum_rating, c.name as category, c.id as category_id from brands as b left join ratings as r on r.brand_id = b.id left join categories as c on c.id = b.category_id where b.id = #{params[:id]} group by r.brand_id order by avg(r.rating) desc").first
 	@category = DB::Brand.where(category_id: @brand.category_id).count
+	@comparisons = DB::Brand.find_by_sql("select b.id, b.name, avg(r.rating) as avg_rating, avg(r.ranking) as avg_ranking from brands as b left join ratings as r on r.brand_id = b.id where b.id != #{params[:id]} and b.category_id = #{@brand.category_id} group by r.brand_id order by avg(r.rating) desc")
+	@total_avg = DB::Rating.find_by_sql("select avg(rating) as avg from ratings where brand_id != #{params[:id]} and category_id = #{@brand.category_id} group by category_id")
+	@total_avg = DB::Rating.where.not(brand_id: params[:id]).where(category_id: @brand.category_id).average(:rating)
 
 	# RATINGS BAR CHART
 	ratings_chart = DB::Rating.find_by_sql("select h.first_name, r.rating from ratings as r left join humans as h on h.id = r.human_id where r.brand_id = #{params[:id]} order by r.rating desc")

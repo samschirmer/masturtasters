@@ -1,21 +1,41 @@
-<table>
-	<tr>
-		<td>Category</td>
-		<td>Master</td>
-		<td>Avg Rating</td>
-		<td>Date</td>
-	</tr>
-	<% @categories.each do |category| %>
-		<tr>
-			<td class="center"><a href='categories/<%= category.id %>'><%= category.name %></a></td>
-			<td class="center"><a href='humans/<%= category.master_id %>'><%= category.master %></a></td>
-			<td class="center"><%= category.avg_rating.round(2) %></td>
-			<td class="center"><%= category.date_tasted.strftime("%m-%d-%Y") %></td>
-		</tr>
-	<% end %>
-</table>
+<div class="row">
+	<div class="col-xs-12 col-md-6">
+		<h3>Top brands</h3>
+		<%= bar_chart  @top_chart, min: 3, max: 4.5 %>
+	</div>
+	<div class="col-xs-12 col-md-6">
+		<h3>Bottom brands</h3>
+		<%= bar_chart  @bottom_chart, min: 0, max: 2 %>
+	</div>
+</div>
 
-<h3>Top brands</h3>
-<%= bar_chart  @top_chart, min: 3, max: 4.5 %>
-<h3>Bottom brands</h3>
-<%= bar_chart  @bottom_chart, min: 0, max: 2 %>
+<div class="row">
+	<div class="col-xs-12">
+		<table class="big">
+			<tr>
+				<td>Category</td>
+				<td>Master</td>
+				<td>Avg Rating</td>
+				<td>Date</td>
+			</tr>
+			<% @categories.each do |category| %>
+				<tr>
+					<td class="center"><a href='categories/<%= category.id %>'><%= category.name %></a></td>
+					<td class="center"><a href='humans/<%= category.master_id %>'><%= category.master %></a></td>
+					<% case category.avg_rating.round(2) 
+					when 4..5 %>
+						<td style="background-color: #0066cc; color: #fff;"><%= category.avg_rating.round(2)%></td>
+					<% when 3..4 %>
+						<td style="background-color: #0099cc; color: #fff;"><%= category.avg_rating.round(2)%></td>
+					<% when 2..3 %>
+						<td style="background-color: #33cccc; color: #fff;"><%= category.avg_rating.round(2)%></td>
+					<% when 0..2 %>
+						<td style="background-color: #00cc99; color: #fff;"><%= category.avg_rating.round(2)%></td>
+					<% end %>
+					<td class="center"><%= category.date_tasted.strftime("%m-%d-%Y") %></td>
+				</tr>
+			<% end %>
+		</table>
+	</div>
+</div>
+

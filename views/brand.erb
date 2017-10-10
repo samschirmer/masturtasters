@@ -1,31 +1,79 @@
-<h1 style="text-align: center;"><a href='/categories/<%= @brand.category_id %>'><%= @brand.category %></a> :: <%= @brand.name.upcase %></h1>
-
-<table style="margin: auto;">
-	<tr>
-		<td>Average score: <%= @brand.avg_rating.round(2) %></td>
-		<td>Average rank: <%= @brand.avg_ranking.round(2) %> of <%= @category %></td>
-	</tr>
-</table>
-
-<table style="margin: 10px auto;">
-	<tr>
-		<td>Human</td><td>Rating</td><td>Rank</td>
-	</tr>
-<% @rankings.each do |r| %>
-	<tr>
-		<td><a href='/humans/<%= r.human_id %>'><%= r.first_name %></a></td>
-		<td><%= r.rating %></td>
-		<td><%= r.ranking %></td>
-	</tr>
-<% end %>
-</table>
-
-<h3>Rating visualizations</h3>
-<div style="width: 100%; margin: auto;">
-	<div style="width: 48%; margin: auto; display: inline-block;">
-	<%= bar_chart @ratings %>
+<div class="row">
+	<div class="col-xs-12">
+		<h1><a href='/categories/<%= @brand.category_id %>'><%= @brand.category %></a> :: <%= @brand.name.upcase %></h1>
 	</div>
-	<div style="width: 48%; margin: auto; display: inline-block;">
-	<%= pie_chart @ratings %>
+</div>
+
+<div class="row">
+	<div class="col-xs-12">
+		<table>
+			<tr>
+				<td>Average score: <%= @brand.avg_rating.round(2) %></td>
+				<td>Average rank: <%= @brand.avg_ranking.round(2) %> of <%= @category %></td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-12 col-md-6">
+		<%= bar_chart @ratings, max: 5 %>
+	</div>
+	<div class="col-xs-12 col-md-6">
+		<%= pie_chart @ratings %>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-xs-12 col-md-6">
+		<h3>Scores</h3>
+		<table>
+			<tr>
+				<td>Human</td><td>Rating</td><td>Rank</td>
+			</tr>
+			<% @rankings.each do |r| %>
+				<tr>
+					<td><a href='/humans/<%= r.human_id %>'><%= r.first_name %></a></td>
+					<% case r.rating 
+					when 4..5 %>
+						<td style="background-color: #0066cc; color: #fff;"><%= r.rating %></td>
+					<% when 3..4 %>
+						<td style="background-color: #0099cc; color: #fff;"><%= r.rating %></td>
+					<% when 2..3 %>
+						<td style="background-color: #33cccc; color: #fff;"><%= r.rating %></td>
+					<% when 0..2 %>
+						<td style="background-color: #00cc99; color: #fff;"><%= r.rating %></td>
+					<% end %>
+					<td><%= r.ranking %></td>
+				</tr>
+			<% end %>
+		</table>
+	</div>
+
+	<div class="col-xs-12 col-md-6">
+		<h3>Comparisons</h3>
+		<table>
+			<tr>
+				<td>Brand</td><td>Avg Rating</td>
+			</tr>
+			<% @comparisons.each do |c| %>
+				<tr>
+					<td><a href='/brands/<%= c.id %>'><%= c.name %></a></td>
+					<% if c.avg_rating - @brand.avg_rating >= 0 %>
+						<td style="background-color: #0066cc; color: #fff;"><%= c.avg_rating.round(2) %></td>
+					<% else %>
+						<td style="background-color: #00cc99; color: #fff;"><%= c.avg_rating.round(2) %></td>
+					<% end %>
+				</tr>
+			<% end %>
+			<tr>
+				<td>TOTAL</td>
+					<% if @total_avg - @brand.avg_rating >= 0 %>
+						<td style="background-color: #0066cc; color: #fff;"><%= @total_avg.round(2) %></td>
+					<% else %>
+						<td style="background-color: #00cc99; color: #fff;"><%= @total_avg.round(2) %></td>
+					<% end %>
+			</tr>
+		</table>
 	</div>
 </div>

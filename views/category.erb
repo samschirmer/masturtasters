@@ -1,33 +1,40 @@
-<h1><%= "#{@category.name.upcase} - #{@category.date_tasted.strftime('%m-%d-%Y')}" %></h1>
-
-<div style="display: inline-block;">
-<table>
-	<tr>
-		<td>Brand</td>
-		<td>Avg Rating</td>
-		<td>Avg Ranking</td>
-	</tr>
-	<% @brands.each do |b| %>
-		<tr>
-			<td><a href='/brands/<%= b.id %>'><%= b.name %></a></td>
-			<td><%= b.avg_rating.round(2) %></td>
-			<td><%= b.avg_ranking.round(2) %></td>
-		</tr>
-	<% end %>
-</table>
+<div class="row">
+	<div class="row-xs-12">
+		<h1>
+			<%= @category.name.upcase %>
+			<span class="subtext">
+				<%= @words[:belong][rand(@words[:belong].count)] %> by <%= @master.first_name %> 
+			</span>
+		</h1>
+	</div>
 </div>
 
-<div style="display: inline-block;">
-<table>
-	<tr>
-		<td>Master</td>
-	</tr>
-		<tr>
-			<td><a href='/humans/<%= @master.id %>'><%= "#{@master.first_name} #{@master.last_name}" %></a></td>
-		</tr>
-</table>
+<div class="row">
+	<div class="col-xs-12">
+		<table>
+			<tr>
+				<td>Brand</td>
+				<td>Avg Rating</td>
+				<td>Avg Ranking</td>
+			</tr>
+			<% @brands.each do |b| %>
+				<tr>
+					<td><a href='/brands/<%= b.id %>'><%= b.name %></a></td>
+					<td><%= b.avg_rating.round(2) %></td>
+					<td><%= b.avg_ranking.round(2) %></td>
+				</tr>
+			<% end %>
+		</table>
+	</div>
 </div>
 
-<%= pie_chart @brand_spread %>
-<%= area_chart @brand_spread %>
+<div class="row">
+	<div class="col-xs-12 col-md-6">
+		<%= pie_chart @brand_spread %>
+	</div>
+
+	<div class="col-xs-12 col-md-6">
+		<%= area_chart @brand_spread %>
+	</div>
+</div>
 
